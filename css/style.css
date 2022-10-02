@@ -1,38 +1,51 @@
 /*** Style générale ***/
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap');
-*{
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+@font-face {
+  font-family: "germini";
+  src: url("../polices/Gemini Moon.otf");
 }
-html{
-    scroll-behavior: smooth;
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
 }
 /*** header ***/
-.banniere{
-    background:5% 65%/cover url('../images/judo.jpg') no-repeat;
-    width: 100%;
-    height: 300px; 
-    border-radius: 0  0 20px 20px ;
-    margin-bottom: 40px;
+.banniere {
+  background: 5% 65% / cover url("../images/judo.jpg") no-repeat;
+  width: 100%;
+  height: 300px;
 }
-header h1{
-    font-family: 'Cinzel Decorative', cursive;
-    margin-top: 5px;
-    color: transparent;
-    background:center/cover url('https://media.giphy.com/media/tANpI4H9zlv1u/giphy.gif');
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
+header h1 {
+  font-family: "Cinzel Decorative", cursive;
+  margin-top: 5px;
+  color: transparent;
+  background: center/cover
+    url("https://media.giphy.com/media/tANpI4H9zlv1u/giphy.gif");
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
 }
-header img{    
-    border-radius: 50%;  
-    
-   
+header img {
+  border-radius: 50%;
 }
-header .nav-link{
-    display: inline-block;
-    transition: .5s;
-    
-   
+header .nav-link {
+  display: inline-block;
+  transition: 0.5s;
 }
-header .nav-link:hover{
+header .nav-link:hover {
   background-color: #3b2672;
+}
+/** h2 ***/
+.gratuit {
+  font-size: 88px;
+  font-family: "germini", sans-serif;
+  background: #2d2d2d;
+  color: #fff;
+}
+/*** card ***/
+.card-body a,
+.card-body a:hover {
+  color: #fff;
+  text-decoration: none;
 }
