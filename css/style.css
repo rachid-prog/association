@@ -2,9 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap');
 *{
     box-sizing: border-box;
-
 }
-htm{
+html{
     scroll-behavior: smooth;
 }
 /*** header ***/
@@ -24,5 +23,16 @@ header h1{
     -moz-background-clip: text;
 }
 header img{    
-    border-radius: 50%;
-}  
+    border-radius: 50%;  
+    
+   
+}
+header .nav-link{
+    display: inline-block;
+    transition: .5s;
+    
+   
+}
+header .nav-link:hover{
+  background-color: #3b2672;
+}
