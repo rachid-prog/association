@@ -38,7 +38,6 @@ header .nav-link:hover {
 }
 /** h2 ***/
 .gratuit {
-  font-size: 88px;
   font-family: "germini", sans-serif;
   background: #2d2d2d;
   color: #fff;
@@ -49,3 +48,8 @@ header .nav-link:hover {
   color: #fff;
   text-decoration: none;
 }
+footer {
+  background: #272727;
+  color: #fff;
+}
+
